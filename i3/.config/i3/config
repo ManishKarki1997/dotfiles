@@ -219,6 +219,11 @@ set $i3lockwall i3lock -i /home/mk489/Pictures/Wallpapers/4.png -t
 bindsym $mod+Ctrl+Shift+l exec --no-startup-id $i3lockwall
 
 
+# assign windows to workspaces
+assign [class="firefox"] $ws1
+assign [class="discord"] $ws4
+assign [class="Microsoft-edge"] $ws1
+for_window [class="Spotify"] move to workspace $ws3
 
 # exec_always --no-startup-id picom --experimental-backends &
 
