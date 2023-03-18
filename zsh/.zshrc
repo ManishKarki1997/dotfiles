@@ -1,3 +1,6 @@
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -58,3 +61,15 @@ ZSH_THEME="agnosterzak"
 
 unset GDK_PIXBUF_MODULEDIR
 unset GDK_PIXBUF_MODULE_FILE
+source /home/starscream/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+
+bindkey '^[[1;5D' backward-word
+bindkey '^[[1;5C' forward-word
+
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+export PATH=$PATH:/home/starscream/.spicetify

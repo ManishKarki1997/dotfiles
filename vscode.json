@@ -1,0 +1,123 @@
+{
+  "sync.gist": "1e227bdd8aeb8f4112881e354b07cf73",
+  // "workbench.iconTheme": "eq-material-theme-icons-palenight",
+  "editor.fontLigatures": true,
+  // "editor.fontFamily": "Dank Mono",
+  // "editor.fontFamily": "Monolisa",
+  "editor.fontSize": 16,
+  // "editor.fontWeight": 700,
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.fontFamily": "'Hack Nerd Font Mono'",
+  "terminal.integrated.gpuAcceleration": "canvas",
+  "terminal.integrated.fontWeight": 400,
+  "terminal.integrated.fontSize": 14,
+  "editor.lineHeight": 36,
+  "editor.fontFamily": "SF Mono, Fira Mono, Consolas, 'Courier New', monospace",
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "dart.debugSdkLibraries": true,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "workbench.sideBar.location": "right",
+  "workbench.editor.enablePreview": false,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
+
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "eslint.format.enable": true,
+  "prettier.enable": true,
+  "vetur.format.enable": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.colorTheme": "Tokyo Night Storm",
+  "terminal.integrated.lineHeight": 1.8,
+  "workbench.startupEditor": "none",
+  "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+  "settingsSync.ignoredSettings": [],
+  "editor.formatOnSave": true,
+  "git.autofetch": true,
+  "workbench.iconExploration.enabled": true,
+  "html.autoClosingTags": false,
+  "files.associations": {
+    "*.html": "html"
+  },
+  "emmet.syntaxProfiles": {
+    "svg": "css"
+  },
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.recentChange.enabled": false,
+  "editor.renderWhitespace": "all",
+  "[markdown]": {
+    "editor.formatOnSave": false
+  },
+  "update.mode": "start",
+  "editor.columnSelection": false,
+  "explorer.autoReveal": false,
+
+  "workbench.editor.limit.enabled": true,
+  "emmet.excludeLanguages": ["markdown"],
+  "emmet.triggerExpansionOnTab": true,
+  // "terminal.integrated.fontFamily": "Hack Nerd Font",
+  "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?_",
+  "workbench.editor.untitled.hint": "hidden",
+  "search.quickOpen.includeHistory": false,
+  "prettier.semi": false,
+  "javascript.format.semicolons": "remove",
+  "security.workspace.trust.untrustedFiles": "open",
+  "git.autoRepositoryDetection": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.exclude": {
+    "**/node_modules/*/**": true
+  },
+  "editor.glyphMargin": false,
+  "scm.diffDecorations": "overview",
+  "editor.padding.top": 16,
+  "editor.scrollBeyondLastLine": false,
+  "html.hover.references": false,
+  "css.hover.references": false,
+  "scss.hover.references": false,
+  "vetur.experimental.templateInterpolationService": true,
+  "editor.bracketPairColorization.enabled": true,
+  "workbench.editor.splitInGroupLayout": "vertical",
+  "explorer.compactFolders": false,
+  "workbench.layoutControl.enabled": false,
+  "prettier.vueIndentScriptAndStyle": true,
+  "[scss]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "eslint.enable": false,
+  "breadcrumbs.enabled": false,
+  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.horizontal": "hidden",
+  "workbench.statusBar.visible": false,
+  "workbench.activityBar.visible": false,
+  "editor.lineNumbers": "off",
+  "scm.diffDecorationsGutterAction": "none",
+  "scm.diffDecorationsGutterPattern": {
+    "modified": false
+  },
+  "scm.diffDecorationsGutterVisibility": "hover",
+  "testing.defaultGutterClickAction": "contextMenu",
+  "testing.gutterEnabled": false,
+  "editor.guides.indentation": false,
+  "editor.hideCursorInOverviewRuler": true
+}
+
