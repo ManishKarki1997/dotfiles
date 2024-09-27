@@ -1,0 +1,14 @@
+[window]
+dynamic_padding = true
+
+  [window.padding]
+  x = 10
+  y = 10
+  
+[font]
+offset.x = 0
+offset.y = 8
+
+[font.normal]
+family = "GeistMono Nerd Font"
+style = "Regular"

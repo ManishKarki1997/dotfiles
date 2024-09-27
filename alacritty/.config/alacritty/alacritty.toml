@@ -1,0 +1,4 @@
+import = [
+  "/usr/local/lib/node_modules/alacritty-themes/themes/Panda.toml",
+  "/home/blackfeather247/.config/alacritty/editor.toml"
+]
